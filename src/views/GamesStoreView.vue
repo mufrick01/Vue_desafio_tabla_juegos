@@ -1,10 +1,10 @@
 <template>
 
 
-  <h1 class="text-center">Tienda 32 bits</h1>
-  <h3 class="text-center" style="margin:30px 0 10px 0 ;">lista de juegos</h3>
+  <h1 class="text-center">Tienda 32-Bits</h1>
+  <h3 class="text-center" style="margin:30px 0 10px 0 ;">Lista De Juegos</h3>
   <div style="display: flex; justify-content: center;">
-    <table class="text-center" style="flex-grow: 1; margin: 20px 40px;">
+    <table class="text-center" style="flex-grow: 1; margin: 20px 20px;" border="1">
       <thead>
         <tr>
           <th>Código</th>
