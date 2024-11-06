@@ -28,8 +28,8 @@ import GameItem from '@/components/GameItem.vue';
 
 const gameStore = useGameStore();
 
-onMounted(async () => {
-  gameStore.updateGameList()
+onMounted(() => {
+  gameStore.getGameList()
 })
 </script>
 
