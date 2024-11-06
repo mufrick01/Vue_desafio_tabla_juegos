@@ -37,8 +37,4 @@ onMounted(async () => {
 .text-center {
   text-align: center;
 }
-
-tr {
-  border: #333 solid 2px;
-}
 </style>
