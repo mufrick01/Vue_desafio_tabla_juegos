@@ -5,14 +5,18 @@
   <h3 class="text-center" style="margin:30px 0 10px 0 ;">lista de juegos</h3>
   <div style="display: flex; justify-content: center;">
     <table class="text-center" style="flex-grow: 1; margin: 20px 40px;">
-      <tr>
-        <th>Código</th>
-        <th>Nombre</th>
-        <th>Precio</th>
-        <th>Stocks</th>
-        <th>Acción</th>
-      </tr>
-      <GameItem v-for="(game) in gameStore.gameList" :key="game.codigo" :="game" />
+      <thead>
+        <tr>
+          <th>Código</th>
+          <th>Nombre</th>
+          <th>Precio</th>
+          <th>Stocks</th>
+          <th>Acción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <GameItem v-for="(game) in gameStore.gameList" :key="game.codigo" :="game" />
+      </tbody>
     </table>
   </div>
 </template>
