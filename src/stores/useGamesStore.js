@@ -5,7 +5,7 @@ export const useGameStore = defineStore('games', () => {
   const gameList = ref([]);
 
   const updateGameList = async () => {
-    const resp = await fetch('src/assets/json/juegos.json');
+    const resp = await fetch('/juegos.json');
     gameList.value = await resp.json();
 
     // gameList.value = data.map((game) => {
