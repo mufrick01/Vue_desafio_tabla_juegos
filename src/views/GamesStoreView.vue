@@ -22,15 +22,11 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue';
 import { useGameStore } from '@/stores/useGamesStore';
 import GameItem from '@/components/GameItem.vue';
 
 const gameStore = useGameStore();
 
-onMounted(() => {
-  gameStore.getGameList()
-})
 </script>
 
 <style scoped>
